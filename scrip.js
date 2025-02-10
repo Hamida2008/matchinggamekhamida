@@ -1,4 +1,4 @@
-// 8 түрлі сан (әрқайсысы 2 рет қайталанады)
+
 const values = [
   "1",
   "1",
@@ -17,7 +17,7 @@ const values = [
   "8",
   "8",
 ];
-values.sort(() => Math.random() - 0.5); // Араластырамыз
+values.sort(() => Math.random() - 0.5);
 
 const cards = [];
 const winMessage = document.getElementById("winMessage");
